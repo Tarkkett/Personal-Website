@@ -1,0 +1,128 @@
+seo:
+  title: "Rokas Kirdulis"
+  description: "Welcome to my portfolio! I'm Rokas Kirdulis, an electrical engineering student at the Eindhoven University of Technology. I have a strong background in competitive robotics, cybersecurity, high-power rocketry and all things electric :D."
+title: "Hey, I'm Rokas Kirdulis EE Student at TU/e"
+description: "Welcome! I’m Rokas Kirdulis — an engineering student, robotics enthusiast, and problem-solver passionate about building things that push boundaries. From world-stage robotics competitions to cybersecurity challenges and hands-on tech projects, I love turning ideas into real, working solutions. Explore my projects and see where curiosity, creativity, and technology meet."
+hero:
+  links:
+    - label: "Explore projects"
+      to: /projects
+      color: "neutral"
+  images:
+    - src: /hero/random-1.avif
+      alt: Random Image 1
+    - src: /hero/random-2.avif
+      alt: Random Image 2
+    - src: /hero/random-3.avif
+      alt: Random Image 3
+    - src: /hero/random-4.avif
+      alt: Random Image 4
+    - src: /hero/random-5.avif
+      alt: Random Image 5
+    - src: /hero/random-6.avif
+      alt: Random Image 6
+    - src: /hero/random-7.avif
+      alt: Random Image 7
+    - src: /hero/random-8.avif
+      alt: Random Image 8
+    - src: /hero/random-9.avif
+      alt: Random Image 9
+about:
+  title: "About Me"
+  description: |
+    I’m a 19-year-old Electrical Engineering student at Eindhoven University of Technology with a background in robotics, programming, system administration, and cybersecurity. Over the past few years, I’ve been part of award-winning teams — including winning gold at the Robotics World Olympics (First Global Challenge) in Geneva — and leading robot design in the First Tech Challenge. 
+    My interests go beyond robotics: I’ve built websites, developed games, explored high-power rocketry, and recently joined the Lithuanian national cybersecurity team for the European Cybersecurity Challenge. I thrive in environments where teamwork, innovation, and persistence meet, and I’m always eager to learn new skills and tackle ambitious challenges.
+    Outside of tech, I enjoy mountaineering, snowboarding, gokarts and hackathons. Whether on the track, in the lab, or out in nature, I bring the same focus: pushing limits, solving problems, and always staying curious.
+experience:
+  title: Experience
+  items:
+    - position: "Mentor of FTC team"
+      date: "July 2025 - Present"
+      company:
+        name: "MAGIS"
+        urlfoto: "https://res.cloudinary.com/donpcwlwk/image/upload/v1734038815/LowPolyBlackHole_V4_2x_uahsml.png"
+        url: "https://magisrobotics.com"
+        color: "#00DC82"
+    - position: "Lead of hardware & software design of team"
+      date: "2024 - 2025"
+      company:
+        name: MAGIS
+        urlfoto: "https://res.cloudinary.com/donpcwlwk/image/upload/v1734038815/LowPolyBlackHole_V4_2x_uahsml.png"
+        url: "https://raycast.com"
+        color: "#FF6363"
+    - position: "Robot co-disigner at"
+      date: "2020 - 2021"
+      company:
+        name: LituanicaX
+        urlfoto: "https://res.cloudinary.com/donpcwlwk/image/upload/v1734029839/LtX_logo_tpupre.png"
+        url: "https://linear.app"
+        color: "#5E6AD2"
+    - position: "Senior UX/UI Designer at"
+      date: "2020 - 2021"
+      company:
+        name: Magnificansat
+        urlfoto: "https://res.cloudinary.com/donpcwlwk/image/upload/v1715361259/CanSat_logo_baltos_raides_v2.1_k3cehu.png"
+        url: "https://linear.app"
+        color: "#5E6AD2"
+testimonials:
+  - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
+    author:
+      name: 'Sarah Chen'
+      description: 'Product Director at Bloom Finance'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+  - quote: "Working with Emma was the best decision we made for our startup. She didn't just deliver designs—she challenged our assumptions, conducted thorough user research, and created an experience that truly resonated with our audience. Her technical knowledge of front-end development meant the handoff to our engineering team was seamless."
+    author:
+      name: 'Michael Rodriguez'
+      description: 'Co-founder of Wavelength Music'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+  - quote: "Emma stands out in her ability to translate complex sustainability data into intuitive interfaces. Her work on EcoTrack wasn't just visually stunning—it fundamentally changed how our users interact with environmental information. She approaches each problem with both creativity and analytical rigor, which is exactly what we needed."
+    author:
+      name: 'Dr. Aisha Johnson'
+      description: 'Chief Innovation Officer at GreenTech Solutions'
+      avatar:
+        src: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=40&h=40&q=80'
+        srcset: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=80&h=80&q=80 2x'
+blog:
+  title: "Latest Articles"
+  description: "Some of my recent thoughts"
+faq:
+  title: Frequently Asked Questions
+  description: Answers to common questions about my process and services.
+  categories:
+    - title: Services & Process
+      questions:
+        - label: What services do you offer?
+          content: |
+            I specialize in UX/UI design and front-end development. This includes user research, wireframing, interactive prototyping, creating intuitive user interfaces, building responsive websites and web applications (especially with Vue.js/Nuxt.js), and developing design systems. My goal is to create seamless digital experiences from concept to deployment.
+        - label: What is your design process like?
+          content: |
+            My process is collaborative and iterative, typically involving stages like Discovery & Research, Ideation & Prototyping, User Testing, Visual Design, and close collaboration with development teams during implementation. I tailor the process based on project needs, always focusing on user-centered solutions.
+        - label: Do you work with startups?
+          content: |
+            Absolutely! I enjoy working with startups to help shape their product vision and create user-friendly interfaces from the ground up. I can adapt my process to fit the fast-paced startup environment.
+    - title: Pricing & Timelines
+      questions:
+        - label: How much does a project typically cost?
+          content: |
+            Project costs vary based on scope, complexity, features, and timeline. For comprehensive UX/UI design and front-end development projects, my engagements typically start around $5,000, with average projects ranging between $8,000 and $25,000. For consulting or specific design tasks, my day rate is $700.
+        - label: What are your payment terms?
+          content: |
+            I generally require a 40% deposit to schedule the project and begin work, with the remaining 60% due upon successful project completion and delivery. I accept payments via bank transfer and Stripe.
+        - label: How long does a typical project take?
+          content: |
+            Timelines depend heavily on the project's scope and complexity. Smaller projects might take 3-4 weeks, while larger, more involved projects can range from 2 to 4 months. I always provide a detailed timeline estimate after the initial discovery phase.
+        - label: Do you offer retainers or ongoing support?
+          content: |
+            Yes, for clients needing ongoing design support, feature development, or maintenance, I offer monthly retainer options tailored to specific needs. Let's discuss if this is something you're interested in.
+    - title: About Me
+      questions:
+        - label: What do you enjoy most about your work?
+          content: |
+            I love the challenge of solving complex problems through design and technology. It's incredibly rewarding to see people interact with something I've created and find it genuinely useful and easy to navigate. Bridging the gap between user needs and technical possibilities is what truly excites me.
+        - label: What are your hobbies outside of work?
+          content: |
+            When I'm not designing or coding, I enjoy exploring Boston's neighborhoods, trying out new coffee shops, and hiking in the nearby reservations. I'm also passionate about photography and occasionally contribute to open-source projects.
