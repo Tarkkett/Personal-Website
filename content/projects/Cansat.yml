@@ -1,6 +1,6 @@
 title: Cansat competition
 description: I designed, manufactured, programmed and documented the entire development process of a miniature satellite as well as some intricate ground station software. Please read more about the project in a website I developed.
-image: https://res.cloudinary.com/donpcwlwk/image/upload/v1758206212/render_lwt3ca_emctyo.png
+image: /img/cansat.png
 url: "https://cansat.lt/apiecansat2024"
 tags: ["Cansat", "Satelite", "Space", "Ground station"]
 date: "2024"
