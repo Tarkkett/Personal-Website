@@ -36,8 +36,8 @@ defineProps<{
       >
         <UColorModeAvatar
           class="size-18 ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
-          :light="global.picture?.light!"
-          :dark="global.picture?.dark!"
+          light="https://res.cloudinary.com/donpcwlwk/image/upload/v1714638525/IMG_8227_gy6ylo_Squared_q8szk6.jpg"
+          dark="https://res.cloudinary.com/donpcwlwk/image/upload/v1714638525/IMG_8227_gy6ylo_Squared_q8szk6.jpg"
           :alt="global.picture?.alt!"
         />
       </Motion>
