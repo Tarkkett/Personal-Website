@@ -19,7 +19,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <UPage class="w-full border-2 border-red-200 sm:border-green-500 md:border-blue-500" v-if="page">
+  <UPage class="w-full" v-if="page">
     <LazyStarsBg />
     <LandingHero :page />
   </UPage>
