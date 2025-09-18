@@ -12,30 +12,19 @@ defineProps<{
   <UPageHero
     :ui="{
       headline: 'flex items-center justify-center',
-      title: 'text-shadow-md max-w-3xl mx-auto leading-20',
-      links: 'mt-4 flex-col justify-center items-center'
+      title: 'text-shadow-md mx-auto leading-tight text-2xl sm:text-3xl md:text-4xl lg:text-5xl max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-3xl',
+      links: 'mt-6 flex flex-col sm:flex-row justify-center sm:justify-start items-center gap-3 sm:gap-4'
     }"
   >
-  
+    <!-- Avatar -->
     <template #headline>
       <Motion
-        :initial="{
-          scale: 1.1,
-          opacity: 0,
-          filter: 'blur(20px)'
-        }"
-        :animate="{
-          scale: 1,
-          opacity: 1,
-          filter: 'blur(0px)'
-        }"
-        :transition="{
-          duration: 0.6,
-          delay: 0.1
-        }"
+        :initial="{ scale: 1.1, opacity: 0, filter: 'blur(20px)' }"
+        :animate="{ scale: 1, opacity: 1, filter: 'blur(0px)' }"
+        :transition="{ duration: 0.6, delay: 0.1 }"
       >
         <UColorModeAvatar
-          class="size-18 ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
+          class="size-16 sm:size-20 md:size-24 ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
           light="/img/avatar.jpg"
           dark="/img/avatar.jpg"
           :alt="global.picture?.alt!"
@@ -43,74 +32,44 @@ defineProps<{
       </Motion>
     </template>
 
+    <!-- Title -->
     <template #title>
       <Motion
-        :initial="{
-          scale: 1.1,
-          opacity: 0,
-          filter: 'blur(20px)'
-        }"
-        :animate="{
-          scale: 1,
-          opacity: 1,
-          filter: 'blur(0px)'
-        }"
-        :transition="{
-          duration: 0.6,
-          delay: 0.1
-        }"
+        :initial="{ scale: 1.1, opacity: 0, filter: 'blur(20px)' }"
+        :animate="{ scale: 1, opacity: 1, filter: 'blur(0px)' }"
+        :transition="{ duration: 0.6, delay: 0.1 }"
       >
         {{ page.title }}
       </Motion>
     </template>
 
+    <!-- Description -->
     <template #description>
       <Motion
-        :initial="{
-          scale: 1.3,
-          opacity: 0,
-          filter: 'blur(20px)'
-        }"
-        :animate="{
-          scale: 1.1,
-          opacity: 1,
-          filter: 'blur(0px)'
-        }"
-        :transition="{
-          duration: 0.6,
-          delay: 0.3
-        }"
+        :initial="{ scale: 1.3, opacity: 0, filter: 'blur(20px)' }"
+        :animate="{ scale: 1.1, opacity: 1, filter: 'blur(0px)' }"
+        :transition="{ duration: 0.6, delay: 0.3 }"
       >
         {{ page.description }}
       </Motion>
     </template>
 
+    <!-- Links -->
     <template #links>
       <Motion
-        :initial="{
-          scale: 1.1,
-          opacity: 0,
-          filter: 'blur(20px)'
-        }"
-        :animate="{
-          scale: 1,
-          opacity: 1,
-          filter: 'blur(0px)'
-        }"
-        :transition="{
-          duration: 0.6,
-          delay: 0.5
-        }"
+        :initial="{ scale: 1.1, opacity: 0, filter: 'blur(20px)' }"
+        :animate="{ scale: 1, opacity: 1, filter: 'blur(0px)' }"
+        :transition="{ duration: 0.6, delay: 0.5 }"
       >
         <div
           v-if="page.hero.links"
-          class="flex items-center gap-2"
+          class="flex flex-col sm:flex-row items-center gap-3 sm:gap-4"
         >
           <UButton v-bind="page.hero.links[0]" />
           <UButton
             :color="global.available ? 'success' : 'error'"
             variant="ghost"
-            class="gap-2"
+            class="gap-2 w-full sm:w-auto"
             :to="global.available ? global.meetingLink : ''"
             :label="global.available ? 'Available for new projects' : 'Not available at the moment'"
           >
@@ -130,64 +89,20 @@ defineProps<{
         </div>
       </Motion>
 
-      <div class="gap-x-4 inline-flex mt-4">
+      <!-- Footer/social links -->
+      <div class="inline-flex flex-wrap justify-center sm:justify-start gap-3 mt-4">
         <Motion
           v-for="(link, index) of footer?.links"
           :key="index"
-
-          :initial="{
-            scale: 1.1,
-            opacity: 0,
-            filter: 'blur(20px)'
-          }"
-          :animate="{
-            scale: 1,
-            opacity: 1,
-            filter: 'blur(0px)'
-          }"
-          :transition="{
-            duration: 0.6,
-            delay: 0.5 + index * 0.1
-          }"
+          :initial="{ scale: 1.1, opacity: 0, filter: 'blur(20px)' }"
+          :animate="{ scale: 1, opacity: 1, filter: 'blur(0px)' }"
+          :transition="{ duration: 0.6, delay: 0.5 + index * 0.1 }"
         >
           <UButton
             v-bind="{ size: 'md', color: 'neutral', variant: 'ghost', ...link }"
           />
         </Motion>
-        
       </div>
     </template>
-
-    <!-- <UMarquee
-      pause-on-hover
-      class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s]"
-    >
-      <Motion
-        v-for="(img, index) in page.hero.images"
-        :key="index"
-        :initial="{
-          scale: 1.1,
-          opacity: 0,
-          filter: 'blur(20px)'
-        }"
-        :animate="{
-          scale: 1,
-          opacity: 1,
-          filter: 'blur(0px)'
-        }"
-        :transition="{
-          duration: 0.6,
-          delay: index * 0.1
-        }"
-      >
-        <NuxtImg
-          width="234"
-          height="234"
-          class="rounded-lg aspect-square object-cover"
-          :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
-          v-bind="img"
-        />
-      </Motion>
-    </UMarquee> -->
   </UPageHero>
 </template>
