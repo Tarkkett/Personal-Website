@@ -19,19 +19,8 @@ useSeoMeta({
 </script>
 
 <template>
-  <UPage class="w-screen" v-if="page">
+  <UPage class="w-full border-2 border-red-200 sm:border-green-500 md:border-blue-500" v-if="page">
     <LazyStarsBg />
     <LandingHero :page />
-    <!-- <UPageSection
-      :ui="{
-        container: '!pt-0 lg:grid lg:grid-cols-2 lg:gap-8'
-      }"
-    >
-      <LandingAbout :page />
-      <LandingWorkExperience :page />
-    </UPageSection>
-    <LandingBlog :page />
-    <LandingTestimonials :page />
-    <LandingFAQ :page /> -->
   </UPage>
 </template>
