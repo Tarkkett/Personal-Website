@@ -190,11 +190,11 @@ const features = [
           </p>
 
           <a
-            href="https://meshtastic.liamcottle.net/?lat=51.4314419580816&lng=365.48861503601074&zoom=13"
+            href="https://meshtastic.liamcottle.net/?node_id=1129778716"
             target="_blank"
             class="inline-flex items-center justify-center px-6 py-3 rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold shadow-lg shadow-cyan-500/20 hover:scale-[1.02] transition"
           >
-            Open Mesh Map
+            Open Mesh Map (wait upto 20 seconds to load)
           </a>
         </UCard>
       </div>
