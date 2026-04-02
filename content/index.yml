@@ -6,7 +6,7 @@ description: "Welcome! I’m Rokas Kirdulis — an engineering student, robotics
 hero:
   links:
     - label: "Explore projects"
-      to: /projects
+      to: /all_projects
       color: "neutral"
 about:
   title: "About Me"
