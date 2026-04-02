@@ -1,0 +1,6 @@
+title: Meshtastic MQTT node
+description: In an increasingly Wi-Fi-dependent world, radio technology is often overlooked. In March 2026, I designed a solar-powered, fully autonomous LoRa mesh node based on the LilyGo T-Beam radio.
+image: /img/mesh.png
+url: "/mesh"
+tags: ["Mesh", "Meshtastic"]
+date: "2026"

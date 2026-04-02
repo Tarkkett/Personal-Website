@@ -60,5 +60,11 @@ export const items = ref<TimelineItem[]>([
     title: 'Electrical Engineering Student – TU Eindhoven',
     description: 'Began undergraduate studies in Electrical Engineering.',
     icon: 'i-lucide-graduation-cap'
+  },
+  {
+    date: 'Jan 2026 – present',
+    title: 'Structure subteam member at VOID student team',
+    description: 'Started working on the IGNIS rocket at team VOID.',
+    icon: 'i-lucide-rocket'
   }
 ])
