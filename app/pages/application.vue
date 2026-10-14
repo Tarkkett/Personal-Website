@@ -4,7 +4,7 @@ useSeoMeta({
   description: 'Application for the Arctic Digital Nomads program, showcasing my skills, experience, and motivation for joining the ADN community.'
 })
 
-const videoUrl = 'https://res.cloudinary.com/donpcwlwk/video/upload/v1739458290/0001_bito1f.mp4'
+const videoUrl = 'https://res.cloudinary.com/donpcwlwk/video/upload/v1792013794/ADN_Video_bits_tv9ynj.mp4'
 
 </script>
 
